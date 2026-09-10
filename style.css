@@ -19,3 +19,6 @@ html{scroll-padding-top:94px}.site-header{position:sticky;top:0;z-index:40;max-w
 @media(prefers-reduced-motion:no-preference){.reveal-pending{opacity:0;transform:translateY(15px)}.reveal-ready{opacity:1;transform:translateY(0);transition:opacity .8s ease,transform .8s ease}.gallery figure:hover img{transform:scale(1.015)}}
 @media(prefers-reduced-motion:reduce){.reveal-pending{opacity:1;transform:none}}
 .home .site-header:not(.is-scrolled):not(.menu-open){background:rgba(31,28,24,.5)}
+
+/* Vector arrows: identical outlines on desktop and mobile, no emoji font. */
+.arrow-icon{display:inline-block;width:1em;height:1em;vertical-align:-.12em;flex-shrink:0;overflow:visible;background:none}
